@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <!-- Page Encoding -->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta charset="UTF-8"/>
+
+        <!-- Page Meta Data-->
+		<meta name="description" content=""/>
+		<meta name="keywords" content=""/>
+		<meta name="author" content="Phil Goo Kang"/>
+        <meta name="copyright" content="Copyrights © Phil Goo Kang  All Rights Reserved" />
+
+        <!-- IE Condition Where Breaking CSS -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+        <!-- Mobile first -->
+		<meta name="viewport" content="width=1000"/>
+
+        <!-- Page Title -->
+        <title>Phil Goo Kang Portfolio</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+	</head>
+	<body>
+        <div class="container">
+
+            <div class="head">
+                <div class="name">Phil Goo Kang Portfolio</div>
+
+                <div class="contact">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td style="width: 300px;">Email : philgookang@gmail.com</td>
+                                <td>Phone Number : 010-9126-0221</td>
+                            </tr>
+                            <tr>
+                                <td>Github : <a href="http://github.com/philgookang/">github.com/philgookang</a></td>
+								<td>Resume : <a href="http://resume.philgookang.com/">resume.philgookang.com</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--/.contact-->
+
+				<div class="table-content">
+					<h1>Table of Contents</h1>
+					<ol>
+						<li>
+							<a href="#Detecting-Parts-of-Speech-from-Image-for-Caption-Generation-Using-Deep-Learning-Models">
+								Detecting Parts of Speech from Image for Caption Generation Using Deep Learning Models
+							</a>
+						</li>
+						<li>
+							<a href="#Interior-Based-Social-Networking-Server-and-Online-Commerce-Server-Development">
+								Interior Based Social Networking Server and Online Commerce Server Development
+							</a>
+						</li>
+						<li>
+							<a href="#Beep-Enable-Any-Smart-Device-To-Because-A-Credit-Card-Reader">
+								Beep! Enable Any Smart Device To Because A Credit-Card Reader
+							</a>
+						</li>
+						<li>
+							<a href="#Tium-Tium-Battle-With-Elements-Game-Application">
+								Tium Tium: Battle With Elements Game Application
+							</a>
+						</li>
+						<li>
+							<a href="#Test-Case-Tool-Using-PDF-Reading">
+								Test Case Tool Using PDF Reading
+							</a>
+						</li>
+						<li>
+							<a href="#Altroid-Space-Battle-Game-Application">
+								Altroid: Space Battle Game Application
+							</a>
+						</li>
+					</ol>
+
+				</div>
+            </div>
+            <!--/.head-->
+
+            <table class="table">
+                <tbody id="Detecting-Parts-of-Speech-from-Image-for-Caption-Generation-Using-Deep-Learning-Models">
+					<tr><td>Name</td><td>Detecting Parts of Speech from Image for Caption Generation Using Deep Learning Models</td></tr>
+					<tr><td>Company</td><td>Seoul National University (서울대학교 인터넷 데이터베이스 연구실)</td></tr>
+					<tr><td>Duration</td><td>2018-10-14 ~ 2019-10-15 (12 Months)</td></tr>
+					<tr><td>Environment</td><td><p>Ubuntu 18, Anaconda<br />Python 3, Pytorch, NLTK, CUDA, 4 Titan Xp GPU Devices</p></td></tr>
+					<tr><td>Github</td><td><p><a href="https://github.com/philgookang/pcr">https://github.com/philgookang/pcr</a></p></td></tr>
+					<tr><td>Survey Results</td><td><p><a href="https://bit.ly/2MfbAGj">https://bit.ly/2MfbAGj</a></p></td></tr>
+					<tr><td>발표자료</td><td><p><a href="https://bit.ly/2rjCdD1">https://bit.ly/2rjCdD1</a></p></td></tr>
+					<tr>
+						<td>Details</td>
+						<td class="content">
+							The capability to generate a description about the content of an image is becoming more important with the integration of smart devices and reliance on AI into our daily lives. In this research, I propose a novel approach that utilizes multiple Convolutional Neural Network(CNN) models that have been specially trained to detect features related to the Parts of Speech(PoS) such as noun, verb, pronoun, adjective, preposition, and conjunction. Using the PoS based CNN models, I extract features that the Long-Short Term Memory (LSTM) model uses to generate image captions. I validate my finds by using MSCOCO dataset through two different human surveys and several text metrics such as BLEU, ROUGE, CIDEr, and SPICE.
+							<br /><br />
+							<img src="/img/pcr_1.png">
+							<center>A overview of our model</center>
+							<br />
+							To check if our Parts of Speech based CNN Models can detect Parts of Speech related features, we test our model through object detection. We use our Parts of Speech CNN Models to detect different objects in the image and mark the activated regions of the Convolution Layer by using a Grad-CAM Heat Map. The following images are examples for the Adjective CNN Model and the Verb CNN Model.
+							<br /><br />
+							<img src="/img/pcr_2.png">
+							<center>(Left) Original input image with the caption that our model made. (Center)Grad-CAM Heat Map.<br />(Right) Overlay of the Grad-CAM Heat Map and the input image with the word detected by our Adjective Model.</center>
+							<br />
+							<img src="/img/pcr_3.png">
+							<center>(Left) Original input image with the caption that our model made. (Center)Grad-CAM Heat Map.<br />(Right) Overlay of the Grad-CAM Heat Map and the input image with the word detected by our Verb Model.</center>
+							<br />
+							<img src="/img/pcr_4.png">
+							<center>Example captions generated by our model with the best results</center>
+							<br />
+							<img src="/img/pcr_5.png">
+							<center>Example captions generated by our model with some errors</center>
+						</td>
+					</tr>
+                </tbody>
+            </table>
+			<table class="table">
+                <tbody id="Interior-Based-Social-Networking-Server-and-Online-Commerce-Server-Development">
+					<tr><td>Name</td><td>Interior Based Social Networking Service and Online Commerce Server Development</td></tr>
+					<tr><td>Company</td><td>Jibggumigi (집꾸미기)</td></tr>
+					<tr><td>Duration</td><td>2016-03-01 ~ 2017-03-01 (12 Months)</td></tr>
+					<tr><td>Position</td><td>Dev Team Leader & Server Developer</td></tr>
+					<tr><td>Environment</td><td><p>Amazon EC2, RDS MySQL, Route 53, S3, Cloudfront CDN<br />Apache2, PHP, Codeigniter, CRON, Shell Script</p></td></tr>
+					<tr>
+						<td>Details</td>
+						<td class="content">
+							<b>Service Introduction</b>
+							<br />
+							Jibggumigi is an online house interior magazine service that tags all furniture within the images of the magazine enabling the customer to view details about the furniture, links to any magazine with the same furniture, and also instantly purchase the furniture just by clicking the tag. This service is available for all platforms: web and mobile applications.
+							<br /><br />
+							<b>How I Designed the Server Architecture</b>
+							<br />
+							Jibggumigi Facebook and Instagram page had over 750,000 followers thus resulting in large traffic on the webserver. Moreover, whenever our magazine went on Kakao Channel or Naver News, massive amounts of traffic occurred on our site. To handle the massive traffic, I distributed the connections onto 10  EC2 instances using a load balancer. To prevent the database from being overloaded, a Master-Slave architecture was utalized and also all queries results were cached to several Redis servers which also had a load balancer. All reading SQL queries were sent to the slave databases using Round Robin. All write related SQL queries were sent to the master database. User sessions and data within the sessions were placed in a separate Redis server what was designed has the session cache. An additional set of EC2 servers were generated for scheduling backup, push/email/sms notifications, and analytics. When accessing the web server, the database, or any of the internal production components, I implemented a 'gateway server'. The purpose of the gateway server is to limit access to any of the production components. The gateway server uses only internal private IP addresses to connect to each component and only the gateway server is accessible vis ssh publicly. An overview of the server architecture is available below.
+							<br /><br />
+							<img src="/img/ggumigi_1.png">
+							<center>The server architecture for Jibggumigi</center>
+							<br />
+							<img src="/img/ggumigi_2.png">
+							<center>Parse every SQL and send read sql to slave and write sql to master</center>
+						</td>
+					</tr>
+                </tbody>
+            </table>
+			<table class="table">
+                <tbody id="Beep-Enable-Any-Smart-Device-To-Because-A-Credit-Card-Reader">
+					<tr><td>Name</td><td>Beep! Enable Any Smart Device To Because A Credit-Card Reader</td></tr>
+					<tr><td>Company</td><td>SK플래닛</td></tr>
+					<tr><td>Duration</td><td>2012-09-06 ~ 2014-03-29 (17 Months)</td></tr>
+					<tr><td>Position</td><td>Server & API Developer</td></tr>
+					<tr><td>Environment</td><td><p>Amazon EC2, RDS MySQL<br />Apache2, PHP, Codeigniter</p></td></tr>
+					<tr><td>News Article</td><td><p><a href="https://goo.gl/GNv9gt">https://goo.gl/GNv9gt</a></p></td></tr>
+					<tr>
+						<td>Details</td>
+						<td class="content">
+							<b>Service Introduction</b>
+							<br />
+							Smartphone has been quickly adopted into Korea. We wanted to use the processing power of the smartphone and reduce the load for delivery men and small food store owners. Beep! is a purchasing platform that enables smartphones to process all credit cards purchases through NFC or attach a dongle removing the need to carry or buy a heavy card reading device.
+							<br /><br />
+							<b>How I Designed the Server Architecture</b>
+							<br />
+							My responsibility for this service was to develop the API and manage the server and the database. This service was built on Amazon AWS services. The webserver API was developed using PHP with Codeigniter as the based framework. The database was built on Amazon RDS MySQL instance. We used a dedicated network line to connect to the VAN(PG) company to request purchases.
+							<br /><br />
+							<img src="/img/sk_1.png">
+							<center>Front page of the Beep! service</center>
+							<br />
+							<img src="/img/sk_2.png">
+							<center>A screen shot of the iPad application of Beep!</center>
+							<br />
+							<img src="/img/sk_3.png">
+							<center>Back-end Structure of Beep!</center>
+						</td>
+					</tr>
+                </tbody>
+            </table>
+			<table class="table">
+                <tbody id="Tium-Tium-Battle-With-Elements-Game-Application">
+					<tr><td>Name</td><td>Tium Tium: Battle With Elements Game Application</td></tr>
+					<tr><td>Company</td><td>Samsung Software Membership (삼성전자 소프트웨어 멤버십)</td></tr>
+					<tr><td>Duration</td><td>2012-03-02 ~ 2012-05-07 (2.5 months)</td></tr>
+					<tr><td>Position</td><td>App Developer</td></tr>
+					<tr><td>Environment</td><td>Windows 7, Bada SDK <br />Bada IDE, Visual Studio <br />C++, Cocos2d-x, OpenAL</td></tr>
+					<tr>
+						<td>Details</td>
+						<td class="content">
+							<b>Game Introduction</b><br />
+							This game introduced a Radish that was born to stop the elements of nature from destroying the entire planet. Using the same interface that Super Mario uses, the user fights against the different types of enemy elements that appear on the screen.
+							<br /><br />
+							<b>Developing Process</b><br />
+							This game was developed using Cocos2d-x on the Bada OS smartphone. Using tile mapping, I designed each level, the floor and the movement of the player. This game was registered to Samsung Young & Smart App competition and received 3rd place.
+							<br /><br />
+							<img src="/img/battle_1.png">
+							<center>Game characters from player, minions, and boss</center>
+							<br />
+							<img src="/img/battle_2.png">
+							<center>Tile mapping concept</center>
+							<br />
+							<img src="/img/battle_3.png">
+							<center>Actual tile map used in the game</center>
+							<br /><br />
+							<b>Compressing Image Resources</b><br />
+							To reduce file size and count, all the images were combined into one large image with the location of each image save in a seperate config file. The large image would only be loaded once and reused over and over again-reducing loading time.
+							<br /><br />
+							<img src="/img/battle_4.png">
+							<center>Sprite sheet containing the images used in the app</center>
+							<br />
+							<img src="/img/battle_5.png">
+							<center>Samsung App Store Screen Shot</center>
+							<br />
+							<img src="/img/battle_6.png">
+							<center>Samsung Young & Smart Mobile App Competition Certificate</center>
+						</td>
+					</tr>
+                </tbody>
+            </table>
+			<table class="table">
+                <tbody id="Test-Case-Tool-Using-PDF-Reading">
+					<tr><td>Name</td><td>Test Case Tool Using PDF Reading</td></tr>
+					<tr><td>Company</td><td>Samsung Software Membership (삼성전자 소프트웨어 멤버십)</td></tr>
+					<tr><td>Duration</td><td>2011-12-05 ~ 2012-02-15 (2.5 months)</td></tr>
+					<tr><td>Position</td><td>PDF Viewer Developer</td></tr>
+					<tr><td>Environment</td><td>Windows 7, WinForm, PDFLib.net Library, Office Winwork Library<br />Visual Studio IDE, SQLite, C#</td></tr>
+					<tr>
+						<td>Details</td>
+						<td class="content">
+							<b>Program Introduction</b><br />
+							This program, called Chaser, decodes a PDF file and presents the PDF file using a custom viewer with all the test cases within the file highlighted and record in the Test Case tab. For any test case not detected, the user can highlight the text and add it to the Test Case List. Whenever a test case is complete, the user can mark it as complete. Also, when the file is updated with additional test cases, the program will detect the new test case and also detect delete old test cases.
+							<br /><br />
+							<b>Developing Process</b><br />
+							Due to the patient on PDF reading, there was no available library to decode the PDF file in winform, therefore, it required us to build every component of the program. My responsibility was to create the PDF viewer. Since there are no libraries that decode a PDF file as a viewer, the approach I used was to convert all the pages of the PDF into an image and use an image viewer to mimic the PDF reader. However, an issue with this approach was that we were unable to have the user interact with the content of the image. Therefore, we tracked the movement of the mouse and the down and up click and drew a blue selection box to represent the area the user has selected. Because we are using an image viewer, I also added a lazy loading feature that would reduce the memory required and make the program more responsive.
+							<br /><br />
+							<img src="/img/chaser_1.png">
+							<center>Chaser Program Screen Shot</center>
+							<br />
+							<img src="/img/chaser_2.png">
+							<center>Code to calucate the selection of the user and draw a 'selection blue box'</center>
+							<br />
+							<img src="/img/chaser_3.png">
+							<center>Chaser program main screen with section explaination</center>
+							<br />
+							<img src="/img/chaser_4.png">
+							<center>Toolbar and Test Case List(tab) Explaination</center>
+							<br />
+							<img src="/img/chaser_5.png">
+							<center>Linking a preexisting Test Case</center>
+							<br />
+							<img src="/img/chaser_6.png">
+							<center>Revision Screen: compare changes between an updated document</center>
+						</td>
+					</tr>
+                </tbody>
+            </table>
+			<table class="table">
+                <tbody id="Altroid-Space-Battle-Game-Application">
+					<tr><td>Name</td><td>Altroid: Space Battle Game Application</td></tr>
+					<tr><td>Company</td><td>Samsung Software Membership (삼성전자 소프트웨어 멤버십)</td></tr>
+					<tr><td>Duration</td><td>2011-02-02 ~ 2011-05-30</td></tr>
+					<tr><td>Position</td><td>App Developer</td></tr>
+					<tr><td>Environment</td><td>iOS, Objective C, OpenGL ES, Cocos2d <br />Xcode, Photoshop CS, GarageBand, CFXR</td></tr>
+					<tr><td>Youtube</td><td><p><a href="https://bit.ly/2rfSGbj">https://bit.ly/2rfSGbj</a></p></td></tr>
+					<tr>
+						<td>Details</td>
+						<td class="content">
+							This game is a single shooter game with three levels. Developed on iOS, the player uses a joystick to maneuver and shoot the enemy planes. For this project, I planned, designed, and developed the entire application.
+							<br /><br />
+							<img src="/img/altroid_1.png">
+							<center>System Structure of Altroid</center>
+
+							<br />
+
+							I developed a custom joystick library class that will enable the user to freely control their airplane. The library uses the following attributes and functions to generate the virtual joystick.
+							<br /><br />
+							<img src="/img/altroid_2.png">
+							<img src="/img/altroid_3.png">
+							<center>Screen Shot of the Joystick Structure & Ussage</center>
+
+							<br />
+
+							<b>Object (Enemy) Motion Algorithm</b><br />
+							A smartphone screen is a 2-dimensional plane that gives enemy objects a x and y coordinate moves them in a linear motion. However, simple linear motion is easy to predict for the user and offers a low gaming experience. To give a naturalistic motion and better gaming experience, all motions used the Law of Sine and Cosine. When using Sine and Cosine, the motion was limited to Sine(0~2pi) and cosine (1~2pi) limiting the motion between pi and 2pi. <br />
+							Therefore, to solve the issues with the limits of Sine and Cosine, I utilized the Beizer Curve (BC) and High Order Curve (HOC) which uses the time domain to generate a smooth curve trajectory. The Bernstein Polynomial Formula was used to calculate the BC and HOC for the moving objects as seen in the images below.
+							<br /><br />
+							<img src="/img/altroid_4.png">
+							<center>An example showing the Beizer & High Order Curve from the formula to the implementation</center>
+
+							<br />
+
+							<img src="/img/altroid_5.png">
+							<center>Multiple Game Screen Shots</center>
+						</td>
+					</tr>
+                </tbody>
+            </table>
+        </div>
+        <!--/.container-->
+    </body>
+</html>

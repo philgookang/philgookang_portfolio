@@ -1,0 +1,86 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@charset "utf-8";
+*{margin:0;padding:0;}
+html, body {font-family: TimesNewRoman,Times New Roman,Times,'Nanum Gothic',Baskerville,Georgia,serif; margin: 0px; padding: 0px; border: 0px; width: 100%; height: 100%; -webkit-font-smoothing: antialiased; background-color: #fff; }
+table {border-spacing:0;border-collapse:collapse;}
+table td, table th {padding:0;}
+a:link, a:visited, visited, active, hover, focus { color:#000 ; text-decoration: none; -webkit-tap-highlight-color:rgba(0,0,0,0); }
+
+
+.container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head {
+    box-sizing: border-box;
+}
+.head .name {
+    padding-top: 30px;
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 14px;
+    box-sizing: border-box;
+    border-bottom: 3px solid #000;
+    margin-bottom: 7px;
+    padding-left: 15px;
+}
+.head .contact {
+    box-sizing: border-box;
+    padding-left: 40px;
+    font-size: 15px;
+    line-height: 24px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.head .table-content {
+    box-sizing: border-box;
+    padding: 50px 10px;
+    border-bottom: 3px solid #000;
+    font-size: 16px;
+}
+.head .table-content h1 {
+    font-size: 22px;
+    padding-bottom: 6px;
+}
+.head .table-content ol {
+    padding-left: 20px;
+}
+.head .table-content ol li {
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.table {
+    width: 100%;
+    border-bottom: 3px solid #000;
+}
+.table td {
+    box-sizing: border-box;
+    padding: 10px 5px;
+    border-top: 1px solid #000;
+}
+.table td:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    width: 130px;
+    vertical-align: top;
+}
+.table td:last-child {
+    font-size: 16px;
+    line-height: 22px;
+}
+.table td.content {
+    line-height: 26px;
+    text-align: justify;
+}
+.table td.content img {
+    display: block;
+    margin: 0px auto;
+    width: auto;
+    max-width: 550px;
+    border: 1px solid #00000061;
+}
